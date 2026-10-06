@@ -1,5 +1,5 @@
 ﻿NanumPDF 소프트웨어 사용 조건 (Terms of Use)
-Copyright (c) 2026 나눔스페이스 (Nanum Space). All rights reserved.
+Copyright (c) 2026 Nanum Space Co., Ltd. (나눔스페이스). All rights reserved.
 
 [한국어]
 
@@ -7,7 +7,7 @@ Copyright (c) 2026 나눔스페이스 (Nanum Space). All rights reserved.
    NanumPDF(이하 "소프트웨어")는 무료로 배포됩니다. 사용자는 비용을 지불하지 않고 소프트웨어를 설치하여 사용할 수 있습니다.
 
 2. 권리의 귀속
-   소프트웨어와 관련된 저작권을 포함한 모든 권리는 나눔스페이스에 있습니다. 이 사용 조건은 소프트웨어를 사용할 수 있는 권한만을 부여하며, 소프트웨어에 대한 소유권이나 그 밖의 권리를 이전하지 않습니다.
+   소프트웨어와 관련된 저작권을 포함한 모든 권리는 Nanum Space Co., Ltd.(이하 "나눔스페이스")에 있습니다. 이 사용 조건은 소프트웨어를 사용할 수 있는 권한만을 부여하며, 소프트웨어에 대한 소유권이나 그 밖의 권리를 이전하지 않습니다.
 
 3. 소스 코드 비공개
    소프트웨어의 소스 코드는 공개하지 않으며, 이 사용 조건은 소스 코드에 대한 어떠한 권리도 부여하지 않습니다.
@@ -33,13 +33,16 @@ Copyright (c) 2026 나눔스페이스 (Nanum Space). All rights reserved.
 9. 해석
    이 사용 조건은 한국어본과 영어본으로 제공되며, 서로 내용이 다를 경우 한국어본이 우선합니다.
 
+10. 문의
+   support@nanumspace.com
+
 [English]
 
 1. Free of charge
    NanumPDF (the "Software") is distributed free of charge. You may install and use the Software without paying a fee.
 
 2. Ownership
-   All rights in and to the Software, including copyright, belong to Nanum Space. These terms grant only a right to use the Software; they do not transfer ownership or any other right.
+   All rights in and to the Software, including copyright, belong to Nanum Space Co., Ltd. ("Nanum Space"). These terms grant only a right to use the Software; they do not transfer ownership or any other right.
 
 3. No source code
    The source code of the Software is not made available, and these terms grant no rights to the source code.
@@ -64,3 +67,6 @@ Copyright (c) 2026 나눔스페이스 (Nanum Space). All rights reserved.
 
 9. Interpretation
    These terms are provided in Korean and English. If they differ, the Korean version prevails.
+
+10. Contact
+   support@nanumspace.com

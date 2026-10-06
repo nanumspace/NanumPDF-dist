@@ -1,6 +1,6 @@
 # NanumPDF 배포
 
-NanumPDF는 Nanum Space가 개발한 Windows용 PDF 뷰어 및 편집기입니다. 이 저장소는 **설치 파일 배포 전용**이며 소스 코드는 포함하지 않습니다.
+NanumPDF는 Nanum Space Co., Ltd.가 개발한 Windows용 PDF 뷰어 및 편집기입니다. 이 저장소는 **설치 파일 배포 전용**이며 소스 코드는 포함하지 않습니다.
 
 ## 다운로드
 
@@ -45,7 +45,7 @@ msiexec /i NanumPDF-<버전>-win-x64.msi /qn
 Get-FileHash .\NanumPDF-<버전>-win-x64.msi -Algorithm SHA256
 ```
 
-**2. 디지털 서명** — 파일 속성 > 디지털 서명 탭에서 서명자가 **Nanum Space Co,. Ltd**(발급자: GlobalSign GCC R45 EV CodeSigning CA 2020)인지 확인합니다.
+**2. 디지털 서명** — 파일 속성 > 디지털 서명 탭에서 서명자가 **Nanum Space Co,. Ltd**(발급자: GlobalSign GCC R45 EV CodeSigning CA 2020)인지 확인합니다. 서명 인증서에 등록된 표기는 `Co,.`(쉼표 뒤 마침표)이며, 인증서 표기 그대로입니다.
 
 ```powershell
 (Get-AuthenticodeSignature .\NanumPDF-<버전>-win-x64.msi).Status   # Valid
@@ -65,7 +65,7 @@ Get-FileHash .\NanumPDF-<버전>-win-x64.msi -Algorithm SHA256
 
 NanumPDF는 **무료로 배포**되는 소프트웨어입니다. 누구나 비용 없이 내려받아 설치하고 사용할 수 있습니다. 소스 코드는 공개하지 않습니다. 전체 조건은 이 저장소의 [LICENSE.txt](https://github.com/nanumspace/NanumPDF-dist/blob/main/LICENSE.txt)(설치 폴더에도 함께 설치됨)에 있으며 요약은 다음과 같습니다.
 
-- **모든 권리는 나눔스페이스에 있습니다.** 사용 권한만 주어지며 소유권이나 그 밖의 권리는 넘어가지 않습니다.
+- **모든 권리는 Nanum Space Co., Ltd.(나눔스페이스)에 있습니다.** 사용 권한만 주어지며 소유권이나 그 밖의 권리는 넘어가지 않습니다.
 - **재배포 금지**: 설치 파일과 그 안에 포함된 파일을 복사·게시·판매·대여하는 등 제3자에게 다시 배포할 수 없습니다. 다른 사람에게 알려 줄 때는 이 저장소의 주소를 알려 주세요.
 - **역공학 금지**: 법령이 명시적으로 허용하는 범위를 제외하고 프로그램을 역컴파일·역어셈블·분해하거나 소스 코드를 알아내려는 시도를 할 수 없습니다.
 - **수정 금지**: 프로그램을 수정하거나 이를 바탕으로 파생 제품을 만들 수 없고, 저작권·서명 표시를 제거하거나 바꿀 수 없습니다.
@@ -79,6 +79,6 @@ NanumPDF는 **무료로 배포**되는 소프트웨어입니다. 누구나 비�
 
 ## 문의
 
-문의와 오류 보고는 Nanum Space 담당자에게 전달해 주세요. 이 저장소는 이슈를 받지 않습니다.
+문의와 오류 보고는 support@nanumspace.com 으로 보내 주세요. 이 저장소는 이슈를 받지 않습니다.
 
-Copyright © 2026 나눔스페이스 (Nanum Space). All rights reserved.
+Copyright © 2026 Nanum Space Co., Ltd. All rights reserved.
