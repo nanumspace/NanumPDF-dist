@@ -1,0 +1,66 @@
+﻿NanumPDF 소프트웨어 사용 조건 (Terms of Use)
+Copyright (c) 2026 나눔스페이스 (Nanum Space). All rights reserved.
+
+[한국어]
+
+1. 무료 사용
+   NanumPDF(이하 "소프트웨어")는 무료로 배포됩니다. 사용자는 비용을 지불하지 않고 소프트웨어를 설치하여 사용할 수 있습니다.
+
+2. 권리의 귀속
+   소프트웨어와 관련된 저작권을 포함한 모든 권리는 나눔스페이스에 있습니다. 이 사용 조건은 소프트웨어를 사용할 수 있는 권한만을 부여하며, 소프트웨어에 대한 소유권이나 그 밖의 권리를 이전하지 않습니다.
+
+3. 소스 코드 비공개
+   소프트웨어의 소스 코드는 공개하지 않으며, 이 사용 조건은 소스 코드에 대한 어떠한 권리도 부여하지 않습니다.
+
+4. 금지 사항
+   나눔스페이스의 사전 서면 허락 없이 다음 행위를 할 수 없습니다.
+   (1) 재배포: 소프트웨어 또는 그 일부(설치 파일 포함)를 복사하여 게시·전송·판매·대여·임대하는 등 제3자에게 다시 배포하는 행위
+   (2) 역공학: 소프트웨어를 역컴파일·역어셈블·분해하거나 소스 코드를 알아내려는 행위. 단, 관련 법령이 이 제한에도 불구하고 명시적으로 허용하는 범위는 예외로 합니다.
+   (3) 수정: 소프트웨어를 변경하거나 이를 바탕으로 파생 제품을 만드는 행위, 소프트웨어에 포함된 저작권·상표·서명 표시를 제거하거나 바꾸는 행위
+
+5. 제3자 구성 요소
+   소프트웨어에는 DevExpress 구성 요소, .NET 런타임 및 오픈 소스 라이브러리가 포함되어 있습니다. 이들에는 각 구성 요소의 라이선스가 적용되며, 이 사용 조건은 그 구성 요소들의 권리를 제한하거나 변경하지 않습니다.
+
+6. 보증의 부인과 책임의 제한
+   소프트웨어는 "있는 그대로" 제공되며, 상품성·특정 목적에의 적합성·비침해를 포함하여 명시적이든 묵시적이든 어떠한 보증도 하지 않습니다. 관련 법령이 허용하는 최대 범위에서, 나눔스페이스는 소프트웨어의 사용 또는 사용 불능으로 인한 어떠한 손해(데이터 손실 포함)에 대해서도 책임을 지지 않습니다. 중요한 문서는 편집 전에 반드시 사본을 보관하세요.
+
+7. 종료
+   사용자가 이 사용 조건을 위반하면 사용 권한은 자동으로 종료되며, 사용자는 소프트웨어를 삭제해야 합니다.
+
+8. 준거법
+   이 사용 조건은 대한민국 법령에 따라 해석됩니다.
+
+9. 해석
+   이 사용 조건은 한국어본과 영어본으로 제공되며, 서로 내용이 다를 경우 한국어본이 우선합니다.
+
+[English]
+
+1. Free of charge
+   NanumPDF (the "Software") is distributed free of charge. You may install and use the Software without paying a fee.
+
+2. Ownership
+   All rights in and to the Software, including copyright, belong to Nanum Space. These terms grant only a right to use the Software; they do not transfer ownership or any other right.
+
+3. No source code
+   The source code of the Software is not made available, and these terms grant no rights to the source code.
+
+4. Restrictions
+   Without the prior written permission of Nanum Space, you may not:
+   (1) redistribute the Software or any part of it (including the installer) by copying, publishing, transmitting, selling, lending or renting it to any third party;
+   (2) reverse engineer, decompile or disassemble the Software, or attempt to derive its source code, except to the extent that applicable law expressly permits despite this restriction; or
+   (3) modify the Software, create derivative works from it, or remove or alter any copyright, trademark or signature notices in it.
+
+5. Third-party components
+   The Software includes DevExpress components, the .NET runtime and open-source libraries. Each of those components is governed by its own license, and these terms do not limit or change the rights in them.
+
+6. Disclaimer and limitation of liability
+   The Software is provided "as is", without warranty of any kind, express or implied, including merchantability, fitness for a particular purpose and non-infringement. To the maximum extent permitted by law, Nanum Space is not liable for any damages (including loss of data) arising from the use of or inability to use the Software. Always keep a copy of important documents before editing them.
+
+7. Termination
+   If you breach these terms, your right to use the Software ends automatically and you must delete the Software.
+
+8. Governing law
+   These terms are governed by the laws of the Republic of Korea.
+
+9. Interpretation
+   These terms are provided in Korean and English. If they differ, the Korean version prevails.
