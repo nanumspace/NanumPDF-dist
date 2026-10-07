@@ -1,10 +1,10 @@
 # NanumPDF 배포
 
-NanumPDF는 Nanum Space Co., Ltd.가 개발한 Windows용 PDF 뷰어 및 편집기입니다. 이 저장소는 **설치 파일 배포 전용**이며 소스 코드는 포함하지 않습니다. 릴리스 페이지의 `Source code` 항목은 GitHub 가 자동으로 만드는 것으로 내용이 비어 있습니다. 설치 파일(`.msi`)만 받으세요.
+NanumPDF는 Nanum Space Co., Ltd.가 개발한 Windows용 PDF 뷰어 및 편집기입니다. 이 저장소에는 **다운로드 웹사이트와 설치 파일 배포 안내**만 있으며 앱 소스 코드는 포함하지 않습니다. 릴리스 페이지의 `Source code` 항목은 GitHub 가 자동으로 만드는 것으로 내용이 비어 있습니다. 설치 파일(`.msi`)만 받으세요.
 
 ## 다운로드
 
-[최신 릴리스 받기](https://github.com/nanumspace/NanumPDF-dist/releases/latest)
+[다운로드 페이지](https://nanumspace.github.io/NanumPDF-dist/) · [최신 릴리스 받기](https://github.com/nanumspace/NanumPDF-dist/releases/latest)
 
 | 파일 | 대상 |
 |---|---|
