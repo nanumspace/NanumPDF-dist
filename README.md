@@ -6,10 +6,12 @@ NanumPDF는 Nanum Space Co., Ltd.가 개발한 Windows용 PDF 뷰어 및 편집�
 
 [다운로드 페이지](https://nanumspace.github.io/NanumPDF-dist/) · [최신 릴리스 받기](https://github.com/nanumspace/NanumPDF-dist/releases/latest)
 
+현재 버전: **1.0.1**
+
 | 파일 | 대상 |
 |---|---|
-| `NanumPDF-1.0.0-win-x64.msi` | Intel/AMD 64비트 Windows (x64) |
-| `NanumPDF-1.0.0-win-arm64.msi` | ARM64 Windows (Snapdragon 등) |
+| [`NanumPDF-1.0.1-win-x64.msi`](https://github.com/nanumspace/NanumPDF-dist/releases/download/v1.0.1/NanumPDF-1.0.1-win-x64.msi) | Intel/AMD 64비트 Windows (x64) |
+| [`NanumPDF-1.0.1-win-arm64.msi`](https://github.com/nanumspace/NanumPDF-dist/releases/download/v1.0.1/NanumPDF-1.0.1-win-arm64.msi) | ARM64 Windows (Snapdragon 등) |
 
 각 설치 파일 옆에 `.sha256` 체크섬 파일이 있습니다. 내 PC 종류는 **설정 > 시스템 > 정보 > 시스템 종류**에서 확인할 수 있습니다.
 
@@ -32,7 +34,7 @@ NanumPDF는 Nanum Space Co., Ltd.가 개발한 Windows용 PDF 뷰어 및 편집�
 조용히 설치하려면 다음 명령을 사용합니다.
 
 ```powershell
-msiexec /i NanumPDF-1.0.0-win-x64.msi /qn
+msiexec /i NanumPDF-1.0.1-win-x64.msi /qn
 ```
 
 같은 이름의 이전 버전이 설치되어 있으면 새 설치 파일이 자동으로 교체합니다. x64와 ARM64 설치 파일을 바꿔 설치해도 마찬가지입니다.
@@ -44,13 +46,13 @@ msiexec /i NanumPDF-1.0.0-win-x64.msi /qn
 **1. 체크섬** — 아래 값이 같은 파일 옆의 `.sha256` 값과 같아야 합니다.
 
 ```powershell
-Get-FileHash .\NanumPDF-1.0.0-win-x64.msi -Algorithm SHA256
+Get-FileHash .\NanumPDF-1.0.1-win-x64.msi -Algorithm SHA256
 ```
 
 **2. 디지털 서명** — 파일 속성 > 디지털 서명 탭에서 서명자가 **Nanum Space Co,. Ltd**(발급자: GlobalSign GCC R45 EV CodeSigning CA 2020)인지 확인합니다. 서명 인증서에 등록된 표기는 `Co,.`(쉼표 뒤 마침표)이며, 인증서 표기 그대로입니다.
 
 ```powershell
-(Get-AuthenticodeSignature .\NanumPDF-1.0.0-win-x64.msi).Status   # Valid
+(Get-AuthenticodeSignature .\NanumPDF-1.0.1-win-x64.msi).Status   # Valid
 ```
 
 서명이 없거나 서명자가 다르면 설치하지 마세요. 새로 배포된 파일은 Windows SmartScreen이 평판을 쌓기 전까지 경고를 표시할 수 있습니다. 이 경우에도 위 두 가지가 맞으면 정상 파일입니다.
@@ -61,7 +63,7 @@ Get-FileHash .\NanumPDF-1.0.0-win-x64.msi -Algorithm SHA256
 
 ## 업데이트
 
-자동 업데이트 기능은 없습니다. 새 버전이 나오면 이 저장소의 [릴리스](https://github.com/nanumspace/NanumPDF-dist/releases)에서 새 설치 파일을 받아 설치하면 이전 버전이 교체됩니다. 변경 내용은 각 릴리스 설명에 있습니다.
+앱의 **홈 > 앱 > 업데이트 확인**에서 최신 정식 버전을 조회하고 공식 다운로드 페이지를 열 수 있습니다. 자동 확인·다운로드·설치는 하지 않습니다. 이 저장소의 [릴리스](https://github.com/nanumspace/NanumPDF-dist/releases)에서 새 설치 파일을 받아 직접 설치하면 이전 버전이 교체됩니다. 변경 내용은 각 릴리스 설명에 있습니다.
 
 ## 이용 조건
 
